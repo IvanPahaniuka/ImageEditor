@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zg9j2OlpEfSrCX2HE3kitensl3UVeJN+ZQPmHI8G8yR+fOO5Y1Rfd4JAAgFTYAWSzuCwKVRijE1sx+gTVxRuEQ==",
+  "success": true,
+  "projectFilePath": "F:\\Programs\\VSProjects\\BSUIR\\SPP2\\SPP2\\SPP2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ivanp\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\ivanp\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ivanp\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

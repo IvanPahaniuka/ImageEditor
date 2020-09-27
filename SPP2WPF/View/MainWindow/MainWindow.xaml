@@ -1,0 +1,52 @@
+﻿<Window x:Class="SPP2WPF.View.MainWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPP2WPF.View.MainWindow"
+        xmlns:conv="clr-namespace:SPP2WPF.Converters"
+        mc:Ignorable="d" x:Name="wind"
+        Title="Редактор изображений" Height="450" Width="800">
+    <Window.Resources>
+        <conv:ImageToSourceConverter x:Key="imageToSourceConverter"/>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="Open" Executed="CommandBinding_Open"/>
+        <CommandBinding Command="Save" Executed="CommandBinding_Save" CanExecute="CommandBinding_Save_CanExecute"/>
+        <CommandBinding Command="local:MainWindow.Rotate90" Executed="CommandBinding_Rotate90"/>
+        <CommandBinding Command="local:MainWindow.RotateR90" Executed="CommandBinding_RotateR90"/>
+        <CommandBinding Command="local:MainWindow.Rotate180" Executed="CommandBinding_Rotate180"/>
+        <CommandBinding Command="local:MainWindow.Contrast" Executed="CommandBinding_Contrast"/>
+        <CommandBinding Command="local:MainWindow.Lighten" Executed="CommandBinding_Lighten"/>
+        <CommandBinding Command="local:MainWindow.Saturate" Executed="CommandBinding_Saturate"/>
+        <CommandBinding Command="local:MainWindow.Resize" Executed="CommandBinding_Resize"/>
+        <CommandBinding Command="local:MainWindow.Scale" Executed="CommandBinding_Scale"/>
+    </Window.CommandBindings>
+    <DockPanel>
+        <Menu x:Name="menu" DockPanel.Dock="Top" Height="24">
+            <MenuItem Header="Изображение" Height="{Binding ElementName=menu,Path=Height}">
+                <MenuItem Header="Открыть" Command="Open"/>
+                <MenuItem Header="Сохранить" Command="Save"/>
+            </MenuItem>
+            <MenuItem Header="Редактор">
+                <MenuItem Header="Поворот">
+                    <MenuItem Header="По часовой 90" Command="local:MainWindow.Rotate90"/>
+                    <MenuItem Header="Против часовой 90" Command="local:MainWindow.RotateR90"/>
+                    <MenuItem Header="На 180" Command="local:MainWindow.Rotate180"/>
+                </MenuItem>
+                <MenuItem Header="Размеры">
+                    <MenuItem Header="Размер изображения" Command="local:MainWindow.Scale"/>
+                    <MenuItem Header="Размер холста" Command="local:MainWindow.Resize"/>
+                </MenuItem>
+                <MenuItem Header="Контраст" Command="local:MainWindow.Contrast"/>
+                <MenuItem Header="Яркость" Command="local:MainWindow.Lighten"/>
+                <MenuItem Header="Насыщенность" Command="local:MainWindow.Saturate"/>
+            </MenuItem>
+        </Menu>
+        
+        <Image x:Name="img"
+               MouseMove="img_MouseMove"
+               MouseLeftButtonDown="img_MouseLeftButtonDown"
+               MouseLeftButtonUp="img_MouseLeftButtonUp"></Image>
+    </DockPanel>
+</Window>

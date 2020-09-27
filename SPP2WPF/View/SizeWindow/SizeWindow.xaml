@@ -1,0 +1,26 @@
+﻿<Window x:Class="SPP2WPF.View.SizeWindow.SizeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SPP2WPF.View.SizeWindow"
+        mc:Ignorable="d" ResizeMode="CanMinimize" SizeToContent="Height"
+        Title="Окно выбора значения" Width="300">
+    <Window.CommandBindings>
+        <CommandBinding Command="local:SizeWindow.Apply" Executed="CommandBinding_Apply"/>
+    </Window.CommandBindings>
+    <StackPanel Margin="20">
+        <TextBlock FontSize="21" HorizontalAlignment="Center" Margin="20">Выберите значение</TextBlock>
+        <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+            <TextBlock Text="Ширина" Width="70"></TextBlock>
+            <TextBox x:Name="width" Width="120"></TextBox>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Center">
+            <TextBlock Text="Высота" Width="70"></TextBlock>
+            <TextBox x:Name="height" Width="120"></TextBox>
+        </StackPanel>
+        <Button Margin="20" Height="30" Command="local:SizeWindow.Apply">
+            Применить
+        </Button>
+    </StackPanel>
+</Window>
