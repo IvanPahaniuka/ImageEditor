@@ -1,0 +1,9 @@
+F:\Programs\VSProjects\BSUIR\SPP2\SPP2\bin\Release\netcoreapp3.1\SPP2.deps.json
+F:\Programs\VSProjects\BSUIR\SPP2\SPP2\bin\Release\netcoreapp3.1\SPP2.dll
+F:\Programs\VSProjects\BSUIR\SPP2\SPP2\bin\Release\netcoreapp3.1\SPP2.pdb
+F:\Programs\VSProjects\BSUIR\SPP2\SPP2\obj\Release\netcoreapp3.1\SPP2.csprojAssemblyReference.cache
+F:\Programs\VSProjects\BSUIR\SPP2\SPP2\obj\Release\netcoreapp3.1\SPP2.AssemblyInfoInputs.cache
+F:\Programs\VSProjects\BSUIR\SPP2\SPP2\obj\Release\netcoreapp3.1\SPP2.AssemblyInfo.cs
+F:\Programs\VSProjects\BSUIR\SPP2\SPP2\obj\Release\netcoreapp3.1\SPP2.csproj.CoreCompileInputs.cache
+F:\Programs\VSProjects\BSUIR\SPP2\SPP2\obj\Release\netcoreapp3.1\SPP2.dll
+F:\Programs\VSProjects\BSUIR\SPP2\SPP2\obj\Release\netcoreapp3.1\SPP2.pdb
