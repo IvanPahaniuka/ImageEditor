@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPP2", "SPP2\SPP2.csproj", "{48B00EB0-EBD9-4DEC-884F-DBD008213D5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPP2", "SPP2\SPP2.csproj", "{48B00EB0-EBD9-4DEC-884F-DBD008213D5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPP2WPF", "SPP2WPF\SPP2WPF.csproj", "{954B7E23-81C0-4AAC-96D0-6966C20B4F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPP2WPF", "SPP2WPF\SPP2WPF.csproj", "{954B7E23-81C0-4AAC-96D0-6966C20B4F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPP2WinForms", "SPP2WinForms\SPP2WinForms.csproj", "{F36AA3C0-F78E-4EBE-9BD3-B6FE8E91A57C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{954B7E23-81C0-4AAC-96D0-6966C20B4F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{954B7E23-81C0-4AAC-96D0-6966C20B4F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{954B7E23-81C0-4AAC-96D0-6966C20B4F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36AA3C0-F78E-4EBE-9BD3-B6FE8E91A57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36AA3C0-F78E-4EBE-9BD3-B6FE8E91A57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36AA3C0-F78E-4EBE-9BD3-B6FE8E91A57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36AA3C0-F78E-4EBE-9BD3-B6FE8E91A57C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

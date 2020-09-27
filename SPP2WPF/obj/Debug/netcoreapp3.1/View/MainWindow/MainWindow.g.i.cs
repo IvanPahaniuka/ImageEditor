@@ -78,7 +78,7 @@ namespace SPP2WPF.View.MainWindow {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SPP2WPF;component/view/mainwindow/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SPP2WPF;V1.0.0.0;component/view/mainwindow/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\MainWindow\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
